@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", "Oswald";
+}
+
+body {
+  background: #8b0000;
+  color: #fff;
+}
+.navbar {
+  background-color: #8b0000;
+  position: relative;
+  z-index: 1000;
+}
+.carousel-caption {
+  background: rgb(0, 0, 0, 0.5);
+}
+.carousel-item img {
+  height: 700px;
+  object-fit: cover;
+  width: 100%;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 10px;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 10px 0;
+}

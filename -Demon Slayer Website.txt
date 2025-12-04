@@ -1,0 +1,37 @@
+-Demon Slayer Website
+  -6 pages [Homepage, Character section, Story overview, breathing styles and Nichirin swords, Demon biology, favourite quotes]
+     -Homepage
+	-nav
+	-slider
+	-introduction text						-Favourite quotes Page
+	images of main characters					  -text of main characters quotes
+	-footer															
+     -Character section page						*style idea for color	
+	-div card-container						 -dark theme/red and black theme
+	 -div card*15
+	  -main characters [images, short bios]
+	-footer
+     -Story overview page
+	 -Arc name, summary(in section)
+	 -footer
+     -Demon Slayer Crops and Demons page
+        -Hashira section(Giyu Tomioka, Muichiro Tokito, etc...)
+	-Twelve Kizuki section(upper and lower moons)
+	 -a gallery card includes name
+	-Ranks of demon slayers
+	-footer
+     -Breathing styles and Nichirin swords page
+	-Water breathing style section
+	 -images,text (icons)
+	-Mist breathing style section
+	-Flame breathing style section
+	-Thunder breathing style section( etc...for 11 )
+	-footer
+     -Demon Biology/Lore page
+	-card-container
+	 -card*8
+          (topics about demons)
+     
+	   
+
+
