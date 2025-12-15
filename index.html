@@ -35,7 +35,7 @@
   </head>
   <body>
     <!--navbar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -62,10 +62,16 @@
           <!-- menu -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                id="header"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="story.html">Story overview</a>
+              <a class="nav-link" href="story.html">Story</a>
             </li>
             <li class="nav-item dropdown">
               <!-- for characters both slayers and demon -->
@@ -76,11 +82,13 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Character Section
+                Character
               </a>
               <ul class="dropdown-menu">
                 <!-- add slayer and demon page -->
-                <li><a class="dropdown-item" href="#">demon slayers</a></li>
+                <li>
+                  <a class="dropdown-item" href="slayer.html">demon slayers</a>
+                </li>
                 <li><a class="dropdown-item" href="#"> demons</a></li>
               </ul>
             </li>
@@ -105,6 +113,7 @@
         </div>
       </div>
     </nav>
+
     <!-- slider -->
     <div id="slider" class="carousel slide">
       <!-- carousel indicators -->
@@ -187,127 +196,61 @@
 
     <!-- hero section -->
     <section class="hero">
-      <div class="container">
-        <h1>Demon Slayer: Kimetsu no Yaiba</h1>
-        <p>
-          Enter the world of demon hunters, powerful breathing styles, and
-          unforgettable battles.Demon Slayer: Kimetsu no Yaiba is a popular
-          Japanese anime that follows the journey of Tanjiro Kamado, a
-          kind-hearted boy who becomes a demon slayer after his family is killed
-          by demons. His sister Nezuko survives but is turned into a demon, and
-          Tanjiro fights to protect her while searching for a way to turn her
-          back into a human. The anime is well known for its emotional story,
-          powerful characters, and beautiful animation. 🌸⚔️
-        </p>
-      </div>
+      <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+      <p>
+        Enter the world of demon hunters, powerful breathing styles, and
+        unforgettable battles.Demon Slayer: Kimetsu no Yaiba is a popular
+        Japanese anime that follows the journey of Tanjiro Kamado, a
+        kind-hearted boy who becomes a demon slayer after his family is killed
+        by demons. His sister Nezuko survives but is turned into a demon, and
+        Tanjiro fights to protect her while searching for a way to turn her back
+        into a human. The anime is well known for its emotional story, powerful
+        characters, and beautiful animation. 🌸⚔️
+      </p>
     </section>
+
+    <div class="line"></div>
 
     <!-- intro section -->
     <section class="intro">
-      <div class="container">
-        <h2>Welcome to Demon Slayer world</h2>
-        <p>
-          This fan-made website explores the characters, story arcs, breathing
-          techniques, demons, and history behind the world of Demon Slayer.
-          Whether you’re new to the anime or a long-time fan, there's something
-          here for you.
-        </p>
-      </div>
+      <h2>Welcome to Demon Slayer world</h2>
+      <p>
+        This fan-made website explores the characters, story arcs, breathing
+        techniques, demons, and history behind the world of Demon Slayer.
+        Whether you’re new to the anime or a long-time fan, there's something
+        here for you.
+      </p>
     </section>
-    <section class="featured">
-      <div class="container">
-        <h2>Featured Characters</h2>
-        <div class="grid">
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Tanjiro.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Tanjiro Kamado</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Nezuko.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Nezuko Kamado</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Kagaya.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">kagaya Ubuyashiki</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/zenitsu.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Zenitsu Agatsuma</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Inosuke.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Inosuke Hashibira</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/giyu.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Giyu Tomioka</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Kyojuro.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Kojuro Rengoku</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Tengen.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Tegen Uzui</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Muichiro.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Muichiro Tokito</h5>
-          </div>
-          <div class="card">
-            <a href="character.html">
-              <img src="images/Mitsuri.webp" alt="" class="card-img"
-            /></a>
-            <h5 class="card-text">Mitsuri Kanroji</h5>
-          </div>
-        </div>
-      </div>
-    </section>
+
+    <div class="container">
+      <div class="slayer"><a href="slayer.html">Slayers</a></div>
+      <div class="demon"><a href="demon.html">Demons</a></div>
+    </div>
 
     <!-- section quote -->
     <section class="quote">
-      <div class="container">
-        <p>
-          <em
-            >"No matter how deep the night is, it always turns to day." —
-            Kyojuro Rengoku</em
-          >
-        </p>
-        <p>
-          <em
-            >"Because demons were once human, too! Just like me, they were
-            human, too!" —Tanjiro Kamado</em
-          >
-        </p>
-      </div>
+      <p>
+        <em
+          >"No matter how deep the night is, it always turns to day." — Kyojuro
+          Rengoku</em
+        >
+      </p>
+      <p>
+        <em
+          >"Because demons were once human, too! Just like me, they were human,
+          too!" —Tanjiro Kamado</em
+        >
+      </p>
     </section>
     <!-- section footer -->
     <footer>
-      <div class="container">
+      <div class="fo-container">
         <p>
           Copyright &copy; 2025 Fan-made Demon Slayer Website | This site is not
           officially affiliated with Demon Slayer.
         </p>
-        <a href="#header"><i class="bi bi-arrow-up-circle"></i></a>
       </div>
+      <a href="#header"><i class="bi bi-arrow-up-circle to-top"></i></a>
     </footer>
     <!-- bootatrap cdn js -->
     <script

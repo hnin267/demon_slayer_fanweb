@@ -3,6 +3,66 @@
   padding: 0;
   font-family: "Noto Serif JP", serif;
 }
+
+.active {
+  border-bottom: 2px solid #e11818;
+}
+a {
+  color: #e11818 !important;
+}
+.btn-outline-success {
+  --bs-btn-color: #650f0f !important;
+  --bs-btn-border-color: #650f0f !important;
+  --bs-btn-hover-color: #fff !important;
+  --bs-btn-hover-bg: #650f0f !important;
+  --bs-btn-hover-border-color: #650f0f !important;
+  --bs-btn-focus-shadow-rgb: 101, 15, 15 !important;
+  --bs-btn-active-color: #fff !important;
+  --bs-btn-active-bg: #650f0f !important;
+}
+.bg-body-tertiary {
+  background-color: black !important;
+}
+
+.hero {
+  text-align: center;
+  margin: 50px;
+}
+.intro {
+  text-align: center;
+  margin: 50px;
+}
+
+.line {
+  border-bottom: dashed white 3px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.story {
+  text-align: center;
+  margin: 50px;
+}
+.container {
+  display: flex;
+  justify-content: center; /* centers items horizontally */
+  align-items: center; /* centers vertically if needed */
+  gap: 30px;
+  margin: 0 auto; /* centers the container itself */
+  max-width: 1200px; /* optional, prevents it from being too wide */
+}
+
+.container div {
+  width: 400px;
+  height: 100px;
+  border: 3px dashed white;
+  font-size: 50px;
+  text-align: center;
+}
+.container a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h4,
@@ -69,8 +129,30 @@ body {
   opacity: 1;
   margin-top: 15px;
 }
-
-footer {
+.quote {
   text-align: center;
-  padding: 10px 0;
+  margin-top: 50px;
+}
+footer {
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #000;
+  position: relative;
+  height: 400px;
+}
+
+.fo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.to-top {
+  font-size: 4dvh; /* increase icon size */
+  color: #e11818;
+  position: absolute;
+  right: 30px; /* move to right side */
+  bottom: 20px; /* move down inside footer */
+  cursor: pointer;
 }
