@@ -85,7 +85,7 @@ body {
   object-fit: cover;
   width: 100%;
 }
-.grid {
+/* .grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -123,12 +123,12 @@ body {
   transition: all 0.5s ease;
 }
 
-/* When active */
+ 
 .backstory.show {
   max-height: 100%;
   opacity: 1;
-  margin-top: 15px;
-}
+  margin-top: 15px;} */
+
 .quote {
   text-align: center;
   margin-top: 50px;
