@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Serif ", serif;
 }
 
 .active {
@@ -133,11 +133,10 @@ body {
   margin-top: 50px;
 }
 footer {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 20px 0;
   background-color: #000;
   position: relative;
-  height: 400px;
 }
 
 .fo-container {
