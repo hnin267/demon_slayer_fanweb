@@ -362,12 +362,6 @@ footer {
     flex-direction: column;
     gap: 1rem;
   }
-
-  .slayer,
-  .demon {
-    width: 40px;
-    height: 40px;
-  }
   .quote p {
     font-size: 0.9rem;
     padding: 0 1rem;
